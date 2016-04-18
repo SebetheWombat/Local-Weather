@@ -1,0 +1,47 @@
+body{
+  background-color:#ffffdd;
+  text-align:center;
+  font-size:20px;
+}
+
+#weathBox{
+  margin:auto;
+  margin-top:50px;
+  width:300px;
+  height:400px;
+  border-radius:30px;
+  background:#eff;
+  background:linear-gradient(to bottom left, #c0ffff, #eeffff, #ccffff);
+  border: 2px ridge #ddffff;
+  position:relative;
+}
+#holder{
+  position:absolute;
+  width:300px;
+}
+#loc{
+  margin-top:25px;
+}
+#weather{
+  margin-top: 20px;
+
+}
+#degreeChange{
+  border-radius:5px;
+  width:100px;
+  margin-top:15px;
+  font-weight:bold;
+  background:#cdd;
+}
+#degreeChange:focus{
+  outline:none;
+}
+#clouds{
+
+  margin-top:15px;
+
+}
+#icon{
+  margin-top:15px;
+
+}
