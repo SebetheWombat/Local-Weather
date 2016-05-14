@@ -6,7 +6,7 @@ $(document).ready(function() {
 		long = pos.coords.longitude;
 
 	   $.ajax({
-		url: "http://api.wunderground.com/api/e6066d798fc591ff/geolookup/conditions/q/" + lat + "," + long + ".json",
+		url: "https://api.wunderground.com/api/e6066d798fc591ff/geolookup/conditions/q/" + lat + "," + long + ".json",
 		dataType: "jsonp",
 		success: function(parsed_json) {
 		  var location = parsed_json.location.city;
